@@ -9,7 +9,7 @@ export default function Home() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Dummy authentication logic, replace with real authentication
+    // Dummy authentication logic
     if (email === 'name@example.com' && password === 'password') {
       router.push('/dashboard');
     } else {
